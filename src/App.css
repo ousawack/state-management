@@ -1,0 +1,32 @@
+.MovieList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(35, 78, 128);
+  color: white;
+}
+
+.AddMovie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormInput {
+  padding: 10px;
+  border: 1px solid rgb(63, 75, 182);
+}
+
+.SubmitButton {
+  background-color: rgb(63, 75, 182);
+  color: white;
+  border: 1px solid rgb(63, 75, 182);
+  padding: 10px 20px;
+}
